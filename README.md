@@ -26,7 +26,7 @@ RewriteRule ^(.*)$ pesto.php?id=$1 [L,QSA]
 ### 2. Get pesto.php™
 Now, get that delicious `pesto.php` file into your folder. You can copy the content from here on GitHub, clone this Repo or send a carrier pigeon with the code to your server provider, I don't care.
 ### 3. Links, links, links
-Now here's where how the magical `pesto.php` script will know what to redirect to where... the secret lays in a file you have to create called, you guessed it, `redirects.txt`. In it you can easily define all your redirects in the following format:
+Now here's how the magical `pesto.php` script will know what to redirect to where... the secret lays in a file you have to create called, you guessed it, `redirects.txt`. In it you can easily define all your redirects in the following format:
 ```
 /test -> https://example.org
 /pasta -> https://www.barilla.com
