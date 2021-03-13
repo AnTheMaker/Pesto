@@ -22,9 +22,9 @@ RewriteRule ^(.+) - [PT,L]
 RewriteRule ^(.*)$ pesto.php?id=$1 [L,QSA]
 
 ```
-### 3. Get pesto.php™
+### 2. Get pesto.php™
 Now, get that delicious `pesto.php` file into your folder. You can copy the content from here on GitHub, clone this Repo or send a carrier pigeon with the code to your server provider, I don't care.
-### 4. Links, links, links
+### 3. Links, links, links
 Now here's where how the magical `pesto.php` script will know what to redirect to where... the secret lays in a file you have to create called, you guessed it, `redirects.txt`. In it you can easily define all your redirects in the following format:
 ```
 /test -> https://example.org
@@ -32,7 +32,7 @@ Now here's where how the magical `pesto.php` script will know what to redirect t
 /freemoney -> https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
 You get it, right?
-### 5. Enjoy the ✨magic✨
+### 4. Enjoy the ✨magic✨
 Well, congrats - you're done! Enjoy your Pesto, err redirects. Enjoy your redirects.
 
 _Enjoy_
