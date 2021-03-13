@@ -1,6 +1,7 @@
 # Pesto
 A single-file URL Shortener for all your redirect needs
-**Important:** This is intended for small-scale things and will probably not work for huge amount of short-link (max. a few hundreds)
+
+**Important:** This is intended for small-scale things and will probably not work for huge amount of short-link (max. a few hundreds) - If you need a URL Shortener for higher-scale stuff with an API, check out [shrtcode](https://shrtco.de) (which is also made by me)
 
 Example scenario: you have a personal domain (say example.com) and want to create some redirects to other sites on the web. Just install **Pesto** on your server by following the steps below and you'll have an easy way to set up some redirects!
 
