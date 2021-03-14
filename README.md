@@ -20,7 +20,7 @@ RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^(.+) - [PT,L]
 
-RewriteRule ^(.*)$ pesto.php?id=$1 [L,QSA]
+RewriteRule ^(.+)$ pesto.php?id=$1 [L,QSA]
 
 ```
 ### 2. Get pesto.php™
