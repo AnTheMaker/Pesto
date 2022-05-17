@@ -1,5 +1,6 @@
 <?php
 // Mhhh, you like Pesto and so do I
+// This is a simple URL Shortener/Redirection script!
 // (c) and stuff, 2021 - AnTheMaker - https://github.com/AnTheMaker/Pesto
 
 // ----- Configuration: -----
@@ -23,7 +24,7 @@ if(!file_exists($redirects_file)){
 
 $content = file_get_contents($redirects_file);
 $lines = explode(PHP_EOL, $content);
-$lines = array_filter($lines); //remove empty lines
+$lines = array_filter($lines); // remove empty lines
 $redirects = [];
 foreach($lines as $line){
   $line = trim($line);
@@ -48,4 +49,4 @@ if(array_key_exists($id, $redirects)){ // redirect exists, let's go!
   die('Error 404 - Not found');
 }
 
-die(); //rip
+die(); // rip
